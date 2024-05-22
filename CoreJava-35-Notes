@@ -1,0 +1,225 @@
+1.fullstack developer
+2.backend developer
+3.front end developer
+4.database developer
+
+
+java
+========================================
+1.Core Java
+2.JDBC
+2.Servlet(JSP-Apache)
+3.Spring Framework
+    1.spring core
+    2.Spring Boot
+    2.spring REST-API
+    3.Spring Security  
+    4.Spring data JPA (JdBC(10)+hybernate(5)+JPA(2))
+    5.Spring Batch
+========================================
+Tools:
+========================================
+1.Eclipse 
+2.STS
+3.POSTMAN
+4.Logger
+5.Swagger
+6.maven
+7.Git(git-hub)
+8.debugging
+=========================================
+
+Three Type Software applications
+==========================================
+1.stand alone application(CoreJava)
+2.web application(Servlet-JSP)[corejava+servlet+jsp]
+3.distriputed application(REST-API)[corejava+servlet+rest_api)
+3.mobile application
+===========================================
+[java+dot-net](REST_API)
+
+===========================================
+DevOps
+AWS+Jenkins+Qubernates+Docker
+===========================================
+
+Pre-Requirments
+===========================================
+1.java(oracle+openjdk)(JDK17-java development kit)
+    https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+2.Eclipse(IDE)
+
+3.IntelliJ
+
+
+1.How to create java project using eclipse?
+=========================================
+
+2.How to create Class in java?
+=========================================
+
+3.How to create main() in java?
+=========================================
+
+4.Why should create main method?
+=========================================
+without main method we cant run class
+
+5.What is printing statement in java?
+=========================================
+
+4.How to create Normal method in java?
+=========================================
+        //demo-method name
+        //()-method signature
+        //{}-method body
+    
+        
+        public void demo() {
+            
+            System.out.println("normal method");    
+        }
+============================================================
+
+5.How to create varibale Java?
+
+6.How to create object java?
+============================================================
+1. using new keyword  we can create object
+
+  Welcome w=new Welcome();
+
+  Welcome-class name
+  w-reference
+  new-predefined keyword
+  Welcome()-constructor
+===========================================================
+7.Where to create object
+===========================================================
+in main method
+
+===========================================================
+
+7.Why should create object in java?
+===========================================================
+1.if you want to call normal method we should create object
+
+                 a.How to call normal method using object
+
+                          Welcome w = new Welcome();
+
+===========================================================
+
+
+8.What is compiler in java?
+===============================================
+compiler is used convert high level program to low level 
+program(byte code)
+
+
+
+===================================================================
+
+9.What is low level progrmming
+==============================================
+1.devloper cannot write low level programming
+2.human cannot read low level program
+3.machine can read low level program
+
+10.What is high level programming
+==============================================
+1.devloper can write high level programming
+2.human can read high level program
+3.machine cannot read high level program
+
+
+What is class:
+======================================
+1.Class is a template or logic entity
+2.Class contains state and behaviour
+                 state-global variable
+                 behaviour-methods(bussiness logic)
+
+======================================================
+1.can we create multiple main method in single class?
+======================================================
+yes but parameter cannot be same
+
+           
+
+=========================================
+JDK-JRE-JVM
+
+=========================================
+
+1.state
+2.bussiness logic
+=========================================
+
+
+Types of methods:
+=========================================
+1.main method
+2.instance method
+3.static method
+
+Types of variables:
+=============================================================
+1.instance variable -or-global variable -or-member variable
+=============================================================
+        if a variable declared inside the class and outside the method
+        is called instance variable
+
+2.static variable;
+=========================================
+if a variable declared inside the class and outside the method with static   is called static variable
+
+
+
+Memory
+=======================================
+1.stack
+2.Heap
+3.Method area
+
+=======================================
+1.lazy intialization
+2.eager intialization
+=======================================
+1.static block
+    static{}
+2.instance block {}
+=======================================
+1.static block or main method which one execute dirst
+    ans:static block
+2.how many time static block will be executed?
+     ans:one time
+3. how many time instant block  will be executed?   
+
+
+Debugging
+=======================================
+
+
+JVM Architecture
+=======================================
+class loader
+==========================
+1.bootsrap class loader
+2.Extension class loader
+3.System.loader
+
+
+memory
+==========================
+1.Heap memory
+2.method area
+3.stack memory
+
+Execution Engine
+=========================
+1.interpreter --Translator
+2.JIT Compiler-m1()
+
+==========================
