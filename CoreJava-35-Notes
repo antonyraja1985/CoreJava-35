@@ -163,6 +163,8 @@ Types of methods:
 1.main method
 2.instance method
 3.static method
+4.final method
+5.abstract method
 
 Types of variables:
 =============================================================
@@ -175,7 +177,10 @@ Types of variables:
 =========================================
 if a variable declared inside the class and outside the method with static   is called static variable
 
-
+3.local variable
+=========================================
+1.if a variable declare inside the method is called local variable
+2.local variable cannot be reused outside of the method
 
 Memory
 =======================================

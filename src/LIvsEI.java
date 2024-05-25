@@ -8,8 +8,8 @@ public class LIvsEI {
 	public static void main(String[] args) {
 		
 		System.out.println(name);
-		//LIvsEI l=new LIvsEI();
-		//System.out.println(l.phone);
+		LIvsEI l=new LIvsEI();
+		System.out.println(l.phone);
 		
 	}
 

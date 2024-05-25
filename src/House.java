@@ -33,6 +33,10 @@ public class House {
 		System.out.println("house");
 		
 		House h=new House();
+		House h1=new House();
+		House h2=new House();
+		House h3=new House();
+		House h4=new House();
 	
 		h.portico();
 	}
