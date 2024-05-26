@@ -137,7 +137,7 @@ program(byte code)
 What is class:
 ======================================
 1.Class is a template or logic entity
-2.Class contains state and behaviour
+2.Object contains state and behaviour
                  state-global variable
                  behaviour-methods(bussiness logic)
 
@@ -175,12 +175,26 @@ Types of variables:
 
 2.static variable;
 =========================================
-if a variable declared inside the class and outside the method with static   is called static variable
+if a variable declared inside the class and outside the method with static keyword  is called static variable
 
 3.local variable
 =========================================
 1.if a variable declare inside the method is called local variable
 2.local variable cannot be reused outside of the method
+
+4.final variable
+========================================
+1.if a variable declared with final keyword is called final variable
+2.final variable is constant we cannot modify
+
+How to reuse the variables-(Scope)?
+=========================================
+
+1.local variable can be reused inside the method only
+2.instance variable can be reused instance method only
+3.static variable can be reused anywhere in the class
+4.
+
 
 Memory
 =======================================
@@ -225,6 +239,124 @@ memory
 Execution Engine
 =========================
 1.interpreter --Translator
-2.JIT Compiler-m1()
+2.JIT Compiler--m1()
 
-==========================
+===========================================
+
+data types in java
+===========================================
+1.primitive data type (old, legacy)
+2.refrence data type
+
+1.primitive data type
+===========================================( based on the memory)
+1.byte (loacal,instance,static, final, [static+final] )
+2.short
+3.int
+4.long
+5.float
+6.double
+7.boolean
+8.char
+=========================================== 8X5=40;
+
+package:
+===========================================
+1. it is used to organize the classes
+2. it is used to resolve naming conflicts
+        
+        user-defined package
+        pre-defined package
+                a.java.lang
+                b.java.io
+                c.java.util
+
+=============================================
+
+TypeCasting
+==========================================
+1.up casting
+2.down casting
+
+
+class -vs- object(instance)
+=========================================
+
+class:
+=========================================
+1.class is logical entity, it contains logic of the application
+2.Class is a template or blue print
+3.we can create class using class keyword
+4.we can create multiple opject using single class
+          a.user-defined class
+          3.pre-defined class
+
+Object
+=========================================
+1.Object is physical entity represents memory
+2.Object is real time entity contains state and behaviours
+3.we can create object using new keyword
+4.without class we cant create object
+
+=========================================
+
+Looping statements
+=========================================
+1.for-loop
+2.for-each
+3.while loop
+4.do-while
+
+=========================================
+
+1.for-loop vs for-each?
+=========================================
+
+
+
+What is array?
+=========================================
+1.Array is used to store group of objects
+2.In Array we cant store hetrogeniuos(different) data
+3.Array size is fixed
+5.We cant store data in runtime
+6.In Array we can store hetrogeniuos data also using Object[]
+
+Array Drawbacks
+==========================================
+
+Return type
+==========================================
+
+Return type-(upcasting down casting)
+==========================================
+
+int vs Integer
+=========================================
+int- primitive data type
+Integer - Wrapper class
+=========================================
+
+Task?
+=========================================
+
+
+Constructor
+========================================
+1.what is constructor
+2.what is default constructor
+3.what is parameter constructor
+========================================
+
+String In java?
+========================================
+
+========================================
+f6
+f5
+f7
+f8
+=======================================
+
+design pattern
+=======================================
