@@ -258,7 +258,13 @@ data types in java
 6.double
 7.boolean
 8.char
-=========================================== 8X5=40;
+============================================= 
+2.refrence data type
+=============================================
+1.array
+2.user-defined class[devloper can create user define class]
+3.pre-defined class [classes which is available from java liberary ]
+=============================================
 
 package:
 ===========================================
@@ -327,6 +333,25 @@ Array Drawbacks
 
 Return type
 ==========================================
+void-nothing return  public void m1(){}
+
+return data
+=========================================
+if you want to return data we must add return type in method with follow return keyword
+
+public int m1(){
+    
+    int a=10;
+    return a;
+}
+
+return keyword
+-------------
+after return any java code does not work
+
+
+
+
 
 Return type-(upcasting down casting)
 ==========================================
@@ -343,13 +368,93 @@ Task?
 
 Constructor
 ========================================
-1.what is constructor
-2.what is default constructor
-3.what is parameter constructor
+1.what is constructor?
+
+      If class name and method name same is called constructor
+
+2.what is default constructor?
+      by default devloper no need to implement constructor, while running the
+      class jvm will add constructor automatically
+
+3.what is parameter constructor?
+      parameter  constructor is used to intilize the variable while constructor loading 
+
+4.How many parameter constructor can we create in single class?
+   
+   no limitations 
+
+5.what is Zero parameter constructor?
+   
+   if you want create a object for both parameter constructor and default constructor developer must implement Zero parameter constructor
+
+6. what is copy Constructor?
 ========================================
+  1.if you want create duplicate copy of existing object we can use copy constructor
+  2.if you modified duplicate object it will not afftct original object
+  3.if you modified original object it will not afftct duplicate object
+=========================================
+cloning?
+
+7. can we constructor over loading?
+
+8. can we constructor overriding?
+
+9. constructor chaining?
+
+========================================
+
+OOPS-stands for Object oriented project system
+===============================================================
+1.oop is faster and easier to execute
+2.oop provides clear structure for the program
+3.oop helps to keep the Java code DRY(Dont Repeat Yourself)
+4.oops helps makes the code easier,maintain, modify and debug
+===============================================================
+inheritance -Types
+===============================================================
+1.Single inheritance
+2.multilvel inheritance
+3.heirarchy inheritance
+4.multiple inheritance(using class-cannot support)-(using interface-not support)
+===============================================================
+polymorphism
+===============================================================
+1.method overloading
+2.method overiding
+
+Encpsulation -[hiding the data]
+==============================================================
+getter methods
+setter methods
+
+Abstraction-[hiding implementation details to the user ]
+=============================================================
+Abstract class -[We cant achive abtraction 100% using abstract]
+Interface -[We can achive abtraction 100% using interface]
+
+==============================================================
+
 
 String In java?
 ========================================
+1.String is Prdefined Class in Java belongs to java.lang
+
+
+
+JDK+JRE+JVM
+========================================
+JDK-java development kit
+JRE-Java Runtime environment
+JVM=java virtual machine
+
+========================================
+
+
+
+
+
+
+
 
 ========================================
 f6
