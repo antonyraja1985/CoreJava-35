@@ -412,6 +412,60 @@ OOPS-stands for Object oriented project system
 ===============================================================
 inheritance -Types
 ===============================================================
+1.new class is called as child class or subclass
+2.existing class is called parent class
+3.if we want to achive code re-usability between two classes then go for inheritance
+4.we will use 'extends' keyword to provide 'IS-A' relationship between two class
+
+Advantages 
+==========================
+1.achive code-reusabilty
+2.avoid redundancy
+==========================
+
+class A{
+    
+    public void encrypt(){}
+    public void decrypt(){}
+}
+
+class B{
+    
+    public void encrypt(){}
+    public void decrypt(){}
+}
+================================================
+class Utility{
+    
+    public void encrypt(){}
+    public void decrypt(){}
+}
+
+
+class A extends Utility{
+    
+}
+
+class B extends Utility{
+    
+}
+child class
+===========
+1.the class which takes features from another class is called child class
+
+parent class
+===========
+1.the class which gives features to other class is called parent class
+==============================================
+
+steps to achive 'IS-A' or Inheritance
+======================================
+1.design parent class/super class
+2.design child class/sub class
+3.build relationship between two  using 'extends' keyword 
+
+Inheritance Types
+=====================================
 1.Single inheritance
 2.multilvel inheritance
 3.heirarchy inheritance
@@ -419,20 +473,129 @@ inheritance -Types
 ===============================================================
 polymorphism
 ===============================================================
-1.method overloading
-2.method overiding
+poly-many
+morphism-behaviour
 
-Encpsulation -[hiding the data]
+1.method overloading -compiletime polymorphism - static binding
+================================================================
+1.method name same parameter should be diffrent
+2.we can achive method overloading in single class
+
+2.method overriding-Runtime polymorphism - dynamic binding
+================================================================
+1.method name same and parameter also should be same
+2.we can achive method overriding using extends base class
+
+final keyword  [final-finally-finalize]
+================================================================
+1.we can create class using final keyword
+         Final  Class - we cannot extends
+2.we can create method using final keyword
+         Final  mathod - we cannot override
+3.we can create variable using final keyword
+         Final  variable- we cannot modify
+===============================================================
+this keyword -super keyword
+===============================================================
+this
+========
+1.this keyword is used to denote current object
+2.this keyword is used to diffrentiate instance and local variables
+3.we can call one constructor inside the another constructor in the same calss by using this keyword
+4.3.we can call one method inside the another method in the same calss by using this keyword
+
+super keyword
+===============
+1.super keyword is represents to denote parent class
+
+usecase-1:
+===========
+if suclass and base class have same method then how to call base class method
+ 
+ public void m1() {
+        super.m1();
+        System.out.println("B-m1 method calling");
+        
+    }
+======================================================================
+usecase-2:
+===========
+if suclass and base class have same variable then how to call base class varaible
+ 
+ public void getName() {
+        System.out.println(super.name);
+        System.out.println(name);
+    }
+
+usecase-3:
+==================================================================
+super keyword is used to call base class constructor from subclass
+
+E(){
+        super();
+        System.out.println("Sub Class constructor");
+    }
+=================================================================
+public Employee(String employeeName, int phone) {
+        super();
+        this.employeeName = employeeName;
+        this.phone = phone;
+    }
+
+================================================================
+Encpsulation 
+================================================================
+1.Binding variables and methods into single unit is called encapsulation
+2.Encapsulation is used to achive scecurity
+3.POJO class is example for Encapsulation(Plain Old Java Object)
+           a.getter()
+           b.setter()
+4.we can achive security by declaring variable as private
+5.private variable cant access out side of the class
+6.if you want to acces private variable outside of the class we should create getter and setter methods
+================================================================
+
+Acess Specifier
+===============================================================
+public-an
+private
+protected
+default
+
 ==============================================================
-getter methods
-setter methods
+Abstraction-[hiding the implementation details to the user ]
+===============================================================
+The process of showing essential features to users by hiding the implementation details
 
-Abstraction-[hiding implementation details to the user ]
-=============================================================
-Abstract class -[We cant achive abtraction 100% using abstract]
-Interface -[We can achive abtraction 100% using interface]
+we will design in abstraction in two ways
+=========================================
+1.abstract class
+2.interface
 
-==============================================================
+Abstract class
+===================================================
+1.the class which is declared with 'abstract' keyword is called abstract class
+2.abstract class contains only complete methods-[concrete methods]
+3.abstract class contains only incomplete methods-[abstract method]
+4.abstract class contains both  complete methods and incomplete methods
+5.we can not create object for abstract class by developer
+6.if you want to acsess abstract class we should extends from sub class
+===================================================
+
+abstract method
+=======================================
+1.the method which is declared with 'abstract' keyword is called abstract method
+2.abstract method does not have the body
+3.abstract method ends with semicolen
+
+====================================
+
+Abstract Vs Interface
+====================================
+1.Using abstract class we cant achive 100% abstraction
+2.Using Interface we can achive 100% abstraction
+
+
 
 
 String In java?
