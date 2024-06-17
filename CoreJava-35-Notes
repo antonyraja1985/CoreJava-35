@@ -555,12 +555,14 @@ Encpsulation
 6.if you want to acces private variable outside of the class we should create getter and setter methods
 ================================================================
 
-Acess Specifier
+Access Specifier- Access modifier
 ===============================================================
-public-an
-private
-protected
-default
+package*
+=========
+public-[class-variable-method][scope-anywhere in the project]
+private-[class-variable-method][scope-same package -same class]
+protected-[class-variable-method][scope-same package -different class]
+default-[class-variable-method][scope-same package - different class]
 
 ==============================================================
 Abstraction-[hiding the implementation details to the user ]
@@ -594,6 +596,39 @@ Abstract Vs Interface
 ====================================
 1.Using abstract class we cant achive 100% abstraction
 2.Using Interface we can achive 100% abstraction
+
+Interface
+===================================================
+1.using 'interface' keyword we can create interface
+2.interface contains only abstract methods
+3.interfce does not allow instance variable
+4.interface allows constants(-final variable)
+5.we cant create object for interface
+6.interface does not allow constructor
+7.in interface final and static is optinal for final variable
+8.if you want to use interface we should use 'implements' keyword
+==================================================
+HAS-A Relationship
+===================
+a class containing an instance of another class is called HAS-A Relationship
+
+1.Composition
+=================
+Strong form HAS-A
+=================
+if a class composed with other class object and those class can not exist independently
+
+
+2.Aggregation
+=================
+weak form HAS-A
+=================
+if a class composed with other class object and those class can  exist independently
+
+
+
+Implementation classes
+==================================================
 
 
 
