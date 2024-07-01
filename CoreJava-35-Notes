@@ -787,7 +787,8 @@ ArrayList
 5.Internal data structure of arraylist is growbale array
 ===============================
 
-
+Genrics<E> Element Object
+===============================
 
 Wrapper Classes
 ==============================
@@ -800,10 +801,34 @@ double=Double
 boolean=Boolean
 char=Charector
 
+=============================
 
+Auto-Boxing
+============================
+1.primitive data type to wrapper class object converts automatically
 
+UnBoxing
+==========================
+1.wrapper class object  to primitive data type  converts automatically
 
+ArrayList Methods
+==========================
+1.add(Object e)
+2.addAll(Collection c)
+3.remove(Object e)
+4.remove(int index)
+5.get(int index)
+6.contains(Object e)
+7.clear();
+8.size();
+9.isEmpty()
+10.IndexOf()
+11.lastIndexof()
+12.set(int index, Object e)
+13.iterator()
+14.listIterator()
 
+===========================================
 
 File
 
