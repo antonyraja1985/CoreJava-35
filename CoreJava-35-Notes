@@ -626,7 +626,6 @@ weak form HAS-A
 if a class composed with other class object and those class can  exist independently
 
 
-
 Implementation classes
 ==================================================
 
@@ -636,8 +635,189 @@ Implementation classes
 String In java?
 ========================================
 1.String is Prdefined Class in Java belongs to java.lang
+2.we can create object for String two ways    
+    String name="antony";---String literals
+    String name1=new String("antony");-new keyword
+3.String object is immutable
+4. what is different between == and equals()
+5.String is final class we can not extends
+
+String methods
+=========================================
+1.charAt()
+2.concat()
+3.contains()
+4.equals
+5.startsWith
+6.endswith
+7.trim()
+8.length()
+9.toLowerCase()
+10.toUpperCase()
+11.substring()
+12.split()
+
+StringBuffer
+=============
+1.StringBuffer is predefined class belongs java.lang
+2.StringBuffer mutable
+3.performence is better then string
+4.It is a thread safe
 
 
+StringBuilder
+=============
+1.StringBuilder is predefined class belongs java.lang
+2.StringBuilder is mutable
+3.performence is better then StringBuffer
+3.It is not a thread safe
+
+==================================================================
+
+String vs StringBuffer vs StringBuilder
+=======================================
+
+Overriding methods
+=======================================
+toString()-Object class method
+finalize()
+getclass()
+hashcode()
+getName()
+=======================================
+garbage collector-System.gc()
+=======================================
+System.gc is use to collect and remove un used object
+System.gc() ic cllaing finalize() method internally
+
+
+=========================================
+Exception
+=========================================
+1.Exception is a event that intrupts normal flow of the application
+
+        a.checked exception---Compile time exception
+        b.un-checked exception--Run time exception
+
+2.Exception Handling
+========================================
+try
+catch
+throws
+throw
+finally
+user-defined exception
+=======================================
+
+testCase-1
+===============
+1.single exception
+
+testCase-2
+==============
+1.multiple exception-(mutltiple try catch)
+
+
+
+Solution--
+========
+ try with multiple catch block
+
+Pre-Requirments
+===================
+1.Array
+2.Implentation classes
+
+SubInterface
+==================
+Collection Framework
+====================
+Framework-[Predefined-Semi Application]
+
+1.Collections framework is entity which is used to store group of objects
+2.Collections framework are growbale in nature
+3.In Collection we can store any type of object
+4.Collection framework means it contains set of classes and interfaces
+5.Collection framework providing ready made methods to perform common operations like INSERT, DELETE, RETRIVE, UPDATE, SORT
+
+Collections Hierarchy
+=====================================
+1.Collection-(I)
+2.List-(I)
+3.Set-(I)
+4.Queue-(I)
+5.Iiterable-(I)
+6.Map-(I)
+
+Cursor
+====================================
+1.Enumeration
+2.iterator
+
+====================================
+List:It is used to store group of objects(duplicates are allowed)
+Set:It is used to store group of objects(duplicates are not allowed)
+Queue:It is used to store group of bjects(FIFO)
+Map:It is used to store group of bjects(Key-value)
+
+List Interface
+===================================
+1.It is of child interface Collection interface
+2.List interface having 4 implementation classes
+
+        a.ArrayList implements List
+        b.LinkedList implements List
+        c.Vector implements List
+        d.Stack implements List
+
+How to use List interface
+=================================
+List list=new ArrayList();----valid
+List list=new LinkedList();----valid
+List list=new VectorList();----valid
+List list=new Stack();----valid
+List list=new List();----Not valid
+
+ArrayList
+================================
+1.ArrayList is class implemented By List interface
+2.Duplicates Objects are allowed
+3.it is maintains inertion order
+4.it is allow null 
+5.Internal data structure of arraylist is growbale array
+===============================
+
+
+
+Wrapper Classes
+==============================
+byte-Byte
+short-Short
+int-Integer
+long=Long
+float=Float
+double=Double
+boolean=Boolean
+char=Charector
+
+
+
+
+
+
+File
+
+JDBC+mysql
+========================================
+Servlet+appache Tomcat 
+
+Spring Framework
+==========================================
+
+JSE-java -java standard edition(core java)
+JEE-J2E  -java enterprise edition(servlet-jsp)
+
+=========================================
 
 JDK+JRE+JVM
 ========================================
